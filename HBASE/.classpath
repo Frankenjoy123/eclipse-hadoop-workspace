@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/haddop user library"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/hbase-annotations-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-checkstyle-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-client-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-common-0.98.12.1-hadoop2-tests.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-common-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-examples-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-hadoop-compat-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-hadoop2-compat-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-it-0.98.12.1-hadoop2-tests.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-it-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-prefix-tree-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-protocol-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-rest-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-server-0.98.12.1-hadoop2-tests.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-server-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-shell-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-testing-util-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/hbase-thrift-0.98.12.1-hadoop2.jar"/>
+	<classpathentry kind="lib" path="lib/high-scale-lib-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/htrace-core-2.04.jar"/>
+	<classpathentry kind="lib" path="lib/netty-3.6.6.Final.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
