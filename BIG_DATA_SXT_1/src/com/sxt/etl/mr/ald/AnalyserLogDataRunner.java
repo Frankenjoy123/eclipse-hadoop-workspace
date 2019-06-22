@@ -42,9 +42,9 @@ public class AnalyserLogDataRunner implements Tool {
 
 	@Override
 	public void setConf(Configuration conf) {
-		conf.set("fs.defaultFS", "hdfs://node1:8020");
+		conf.set("fs.defaultFS", "hdfs://node01:8020");
 //		conf.set("yarn.resourcemanager.hostname", "node3");
-		conf.set("hbase.zookeeper.quorum", "node4");
+		conf.set("hbase.zookeeper.quorum", "node02,node03,node04");
 		this.conf = HBaseConfiguration.create(conf);
 	}
 

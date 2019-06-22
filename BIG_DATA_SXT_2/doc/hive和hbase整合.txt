@@ -1,0 +1,24 @@
+﻿hive和hbase同步
+https://cwiki.apache.org/confluence/display/Hive/HBaseIntegration
+
+1、把hive-hbase-handler-1.2.1.jar  cp到hbase/lib 下
+	同时把hbase中的所有的jar，cp到hive/lib
+
+2、在hive的配置文件增加属性：
+  <property>
+    <name>hbase.zookeeper.quorum</name>
+    <value>node1,node2,node3</value>
+  </property>
+
+3、在hive中创建临时表
+
+CREATE EXTERNAL TABLE tmp_order 
+(key string, id string, user_id string)  
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'  
+WITH SERDEPROPERTIES ("hbase.columns.mapping" = ":key,order:order_id,order:user_id")  
+TBLPROPERTIES ("hbase.table.name" = "t_order");
+
+CREATE TABLE hbasetbl(key int, value string) 
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
+WITH SERDEPROPERTIES ("hbase.columns.mapping" = ":key,cf1:val")
+TBLPROPERTIES ("hbase.table.name" = "xyz", "hbase.mapred.output.outputtable" = "xyz");
