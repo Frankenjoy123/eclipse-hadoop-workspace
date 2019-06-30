@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/project/!svn/ver/229/storm-project/src/kafka/examples
+END
+KafkaConsumerProducerDemo.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/project/!svn/ver/243/storm-project/src/kafka/examples/KafkaConsumerProducerDemo.java
+END
+Producer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/project/!svn/ver/243/storm-project/src/kafka/examples/Producer.java
+END
+SimpleConsumerDemo.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/project/!svn/ver/229/storm-project/src/kafka/examples/SimpleConsumerDemo.java
+END
+Consumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/project/!svn/ver/244/storm-project/src/kafka/examples/Consumer.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/project/!svn/ver/238/storm-project/src/kafka/productor
+END
+Producer.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/project/!svn/ver/281/storm-project/src/kafka/productor/Producer.java
+END
+LogProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/project/!svn/ver/285/storm-project/src/kafka/productor/LogProducer.java
+END
+KafkaProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/project/!svn/ver/285/storm-project/src/kafka/productor/KafkaProperties.java
+END
